@@ -1,0 +1,18 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "LifeWay Coding Challenge",
+        "node_port": 8080
+    },
+    "testing": {
+        "config_id": "testing"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 80
+    }
+}
