@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/mocha/bin/mocha ./tests/test.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,11 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "lodash": "^4.17.15",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0"
   }
 }

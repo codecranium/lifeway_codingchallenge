@@ -5,7 +5,7 @@
 Development / Programming Language stack used:
 
  - NodeJS and Express
-
+ - Mocha for Unit Testing
   
 
 ### Instructions to run project
@@ -67,6 +67,11 @@ Description: The main method required in the coding challenge request - used to 
     [Response-Type] application/json
 
 
+
+### Running Unit Tests
+To execute the unit tests associated with the project, from the project folder run the following command:
+(Note:  Make sure the API project is running when executing the unit tests)
+> **npm run test**
 
 
 ### Troubleshooting
